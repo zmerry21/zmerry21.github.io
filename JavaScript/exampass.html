@@ -35,16 +35,16 @@
         //&&
         //||
         //!
-       if ( c>80 || java>80 || js>80) {
+        if ( c>80 || java>80 || js>80) {
           document.write("<h1>This student is passed with flying colours</h1>");
         }else if(c >=50 && java >=50 && js >=50 ) {
             document.write("<h1>This student is pass!</h1>");
-        }else{
+        }else if( c<50 || java<50 || js<50 ) {
         document.write("<h1>This student is fail!</h1>");
-      
-      
-       }
-    }   
+        }
+        
+        }
+     
    
       
   
