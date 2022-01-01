@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM TEST</title>
+</head>
+<H1>LOG IN PAGE</H1>
+<body>
+    <!-- form -->
+    <form action="request.php" method="post"></form>
+    <label for="name">Name</label>
+    <input type="text" name="Stu_name" id="name"><br><br>
+    <label for="email">Email</label>
+    <input type="text" name=Stu_mail" id="email"><br><br>
+    <label for="password">Password</label>
+    <input type="password" name="Stu_password" id="password" ><br><br>
+    <label for="phone">Phone</label>
+    <input type="phone" name="Stu_phone" id="phone" value=""><br><br>
+    <label for="passport">Passport</label>
+    <input type="file" accept=".png/" name="passport" id="passport">
+    <br><br>
+    <label for="">Gender</label><br>
+    <input type="radio"  name="gender" value="male" id="male"> <label for="male">Male</label>
+    <input type="radio"  name="gender" value="female" id="female"> <label for="female">Female</label>
+    <input type="radio"  name="gender" value="other" id="other"> <label for="other">Other</label>
+    <br><br>
+    <label for="">Hobby</label><br>
+    <input type="checkbox" name="travelling" value="travelling" id="travelling"> <label for="travelling">travelling</label>
+    <input type="checkbox" name="watching_movies" value="watching_movies" id="watching_movies"> <label for="watching_movies">Watching movies</label>
+    <input type="checkbox" name="Adventures" value="Adventures" id="Adventures"> <label for="Adventures">Adventures</label>
+    <br><br>
+    <button type="submit">Submit</button> <br><br><br><br>
+
+
+   <!-- Table -->
+    <Table border="1" cellspacing="0" cellpadding="15">
+        <thead>
+           <tr>
+               <td>No.</td>
+               <td>Items</td>
+               <td>Prices</td>
+               <td>Qty</td>
+               <td>Subtotal</td>
+           </tr>
+        </thead>
+        <tbody>
+           <tr>
+              <td>1</td>
+              <td>Noodle</td>
+              <td>300</td>
+              <td>3</td>
+              <td>900</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>Egg</td>
+              <td>200</td>
+              <td>5</td>
+              <td>1000</td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td>Decolgen</td>
+              <td>1500</td>
+              <td>1</td>
+              <td>1500</td>
+          </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+</Table>
+</body>
+</html>

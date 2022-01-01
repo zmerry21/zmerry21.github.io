@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="clock"></div>
+    <script>
+    function timer(){
+        let timer=new Date();
+        let hour=timer.getHours();
+        let min=timer.getMinutes();
+        let sec=timer.getSeconds();
+        document.getElementById('clock').innerHTML=`<h1>${hour}:${min}:${sec}</h1>`
+    }
+     setInterval('timer()',1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers!</title>
+    <script>
+          alert("Testing Page!");
+    </script>
+        
+</head>
+<body background="/images/forest.jpg">
+
+    
+  <a href="">Home</a> |
+  <a href="./Pages/kpop.html">K-POP</a> | 
+  <a href="./Pages/moti.html">Moti</a> |
+  <a href="./Pages/about.html">About</a> |
+  <div id="clock"></div>
+    <p>
+    <center>
+        <h1>FLOWERS BLOG</h1>
+       
+        <p>Do you love flowers and want to learn more about kinds of common flowers? You’re in the right place!</p>
+    </center>
+    </p>
+    
+    <!-- IMAGE -->
+       <img src="./images/blue.jpg" alt="Forget Me Not" id="img"  onmouseover="big()" onmouseout="normal()">
+     
+    <br>
+    
+
+    <!-- Link -->
+    <a href="https://fieldofflowers.com/about-us/flower-meanings/">Websites</a><br>
+    <a href="https://www.youtube.com/watch?v=UMfMtaxxkAI">Youtube</a>
+ <hr>
+     <h5 align="center">Copyright &copy; 2021</h5>
+     <h5 align="center">Thanks for your supports</h5> 
+     
+
+     <!-- Javascript -->
+     <script>
+         function timer(){
+        let timer=new Date();
+        let hour=timer.getHours();
+        let min=timer.getMinutes();
+        let sec=timer.getSeconds();
+        document.getElementById('clock').innerHTML=`<h1>${hour}:${min}:${sec}</h1>`
+    }
+     setInterval('timer()',1000);
+        
+
+         function big(){
+        let img=document.querySelector("#img");
+        img.style.width="600px";
+        img.style.height="300px";
+
+         } 
+         function normal(){
+        let img=document.querySelector("#img");
+        img.style.width="300px";
+        img.style.height="150px";
+
+         }
+       
+     </script>
+</body>
+</html>
