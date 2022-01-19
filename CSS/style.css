@@ -1,0 +1,203 @@
+h1{
+    color:green;
+    text-transform: Uppercase;
+    text-align: center;
+}
+/* /universal selector  */
+ /* *{
+    color: red; TEXT
+    color: #09c7ed;   HEX
+    color: rgb(9, 10, 71);  
+    margin: 0px;
+    padding: 0px;
+} */
+tag selector
+
+/* div{
+    color: yellow;
+    word-spacing: 40px;
+    width: 70%;
+} */
+
+/* attribute selector */
+/* a[target="_blank"]{
+    color: red ;
+    text-decoration: none;
+} */
+ /* id selector */
+
+ #idselector{
+        color: blue;
+        text-indent:50px;
+        word-spacing:30px;
+        line-height:30px;
+        text-transform:uppercase;
+    }
+    .classselector{
+        color:green ;
+        letter-spacing: 20px;
+        line-height: 30px;
+    }
+    .desc a{
+        color:red ;
+    }
+    .child>a{
+        color: pink;
+    }
+    a:link{
+      color: violet;
+    }
+    a:hover{
+        color: green;
+    }
+    a:active{
+        color: yellow;
+        letter-spacing: 40px;
+    }
+    a:visited{
+        color: brown;
+    }
+
+
+    /* target */
+    
+    div:target{
+    border: 1px solid red;
+}
+    p:target{
+    border: 1px solid green;
+} 
+/* border */
+.borderone{
+    /* border: 1px solid black; */
+    border: 5px dashed #f00;
+}
+.bordertwo{
+    /* border-bottom: 5px double; */
+    border-top: 5px double #0f0;
+}
+.borderstyle{
+    /* border-style: solid dotted double groove ; */
+    /* T /R /B /L */
+    /* border-style: solid dotted double; */
+    /* T /L&R /B */
+    /* border-style: double dashed; */
+    /* T&B/ L&R */
+    border-style: double;
+}
+.borderwidth{
+    border-width: 5px;
+    border-style: solid;
+}
+
+/* Margin */
+.margin{
+    border: 1px solid red;
+    margin: 40px;
+}
+.marginmix{
+    border: 1px solid black;
+    margin: 40px 70px 90px;
+}
+
+.padding{
+     padding: 40px; 
+    padding: 50px 0px 0px 60px ;
+    border: 1px solid black;
+}
+.inline{
+    border: 1px solid rgb(212, 18, 18);
+    width: 400px;
+    display: inline-block;
+
+}
+.block{
+    border: 1px solid green;
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+}
+div.float_left img{
+    width: 20%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+div.float_right img{
+    width: 20%;
+    float: right;
+}
+div.gridone div,div.gridtwo div,div.gridthree div,div.grid4 div,div.grid5 div,div.grid6 div{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+div.gridone,div.gridtwo,div.gridthree,div.grid4,div.grid5,div.grid6{
+    display:grid ;
+    grid-template-columns: auto  auto auto auto;
+}
+div.gridtwo{
+    grid-column-gap: 30px;
+}
+div.gridthree{
+    grid-row-gap: 30px;
+}
+div.grid4{
+    grid-gap: 20px;
+}
+.gridaddcolumn{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.gridaddrow{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+/* position */
+
+.relativeparent{
+    border: 1px solid black;
+    width: 1000px;
+    height: 800px;
+}
+.relative{
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 80px;
+    left: 190px;
+
+}
+/* absolute ကdocument ကစကန်တယ် */
+.absoluteparent{
+    /* relative ******** */
+    position: relative;
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+}
+.absolute{
+    /* left: top: no need */
+    position: absolute;
+    border: 1px solid yellow;
+    width: 500px;
+    height: 300px;
+}
+.fixed{
+    position: fixed;
+    top: 50px;
+    left: 1000px;
+}
+.online{
+    font-family: 'Dancing Script', cursive;
+}
+@font-face{
+    src: url(Rubi/RubikBeastly-Regular.ttf);
+    font-family: rubi;
+}
+.offline{
+    font-family: rubi;
+}
+    

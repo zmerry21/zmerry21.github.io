@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+    font-style: normal;
+}
+
+.borderone{
+    border: double;
+}
+.bordertwo{
+  border: 3px solid red;
+}
+.margin{
+    margin-left: 40%;
+    border: 3px red double;
+}
+.padding{
+    color
+    border:40px 30px 50px;
+}
+
+
+div.floatleft img{
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+.clear{
+    clear: both;
+}
+div.floatright img{
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+   
+    

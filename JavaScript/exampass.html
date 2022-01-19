@@ -6,14 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
 </head>
-
 <body>
     <h1>Exam Result</h1>
     <form action="request.php" method="post" name="myForm">
     <label for="c">Turbo C</label>
     <input type="number" name="c" id="c" placeholder="Enter Turbo C Mark" required>
     <br><br>
-    
     <label for="java">Java</label>
     <input type="number" name="java" id="java" placeholder="Enter Java mark" required>
     <br><br>
@@ -31,10 +29,7 @@
         console.log(java);
         let js = document.myForm.js.value;
         console.log(js);
-
-        //&&
-        //||
-        //!
+        //&&     ||     !
         if ( c<50 || java<50 || js<50 ) {
         document.write("<h1>This student is fail!</h1>");
         }else if( c>80 || java>80 || js>80) {
