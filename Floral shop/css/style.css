@@ -48,7 +48,7 @@ nav.navbar ul{
 }
 .img{
     width: 100%;
-    height: 550px;
+    height: 500px;
 }
 .backgroundtext{
     position: absolute;
@@ -76,3 +76,269 @@ nav.navbar ul{
     background-color: #2137e1;
 
 }
+.header{
+    text-align: center;
+    margin-top: 40px;
+}
+.divided{
+    width: 100px;
+    margin: auto;
+    border: 1px solid #2137e1;
+}
+.product{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+    text-align: center;
+    grid-gap: 50px;
+}
+.product_img{
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 10px 20px rgb(0,0,0,.15);
+}
+.red{
+    color:red;
+}
+.about{
+    background-image: url(../images/bg.jpg);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+.about div{
+    padding: 60px;
+}
+.divid{
+    width: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.title{
+    margin-left: 30px;
+}
+.package{
+    margin:30px 30px 50px 30px;
+    float: left;
+    width: 400px;
+}
+/* ul{
+    padding: 30px;
+}
+li{
+    font-size: 20px;
+    font-weight: 300PX;
+} */
+.head{
+    margin-top: 20px;
+}
+.clear{
+    clear: both;
+}
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #e2e7e7;
+    padding: 30px 0px 30px 30px;
+}
+.support_icon p{
+    display: inline-block;
+    margin-left: 20px;
+}
+footer{
+    background-color: #212529;
+    height: 230px;
+}
+.n{
+    text-decoration: none;
+    color: grey;
+    display: inline-block;
+    font-weight: bold;
+    margin: 50px 20px 0px;
+}
+.designed{
+    color: grey;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.icon{
+    color: gray;
+    display: inline-block;
+    margin: 20px 10px 0px;
+
+}
+/* start contact page */
+.z{
+    text-decoration:none;
+    display: grid;
+    grid-template-columns: auto auto; 
+    margin-top: 30px;  
+    background-image: url(../images/bg2.jpg); 
+    box-shadow: 0 20px 20px rgba(10, 10, 10, 0.15) ;
+}
+.z div{
+    display: inline-block;
+    color:rgb(48, 6, 29);
+    font-size: 20px;
+}
+.contact{
+    width: 300px;
+    height: 30px;
+    margin-top: -20px;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 10px 10px #5a5b5c ;
+   
+}
+.contact1{
+    width: 300px;
+    height: 150px;
+    margin-top: -20px;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 10px 10px #5a5b5c ;
+}
+
+.context{
+    text-shadow:2px 2px 2px #d6dce2 ;
+    padding-left: 200px;
+    line-height: 60px;
+}
+.context1{
+    text-shadow:2px 2px 2px #5a5b5c ;
+    line-height: 60px;
+}
+.context h3:hover{
+    color: rgb(10, 105, 38);
+    letter-spacing: 4px;
+}
+.icon1{
+    color: rgb(48, 6, 29);
+}
+.icon1:hover{
+   color:rgb(88, 216, 127);
+}
+input[type="name"]:focus,input[type="email"]:focus,input[type="number"]:focus,button[type='submit']:focus{
+        border: 3px solid rgb(85, 18, 55);
+     }
+ /* End contact page */
+
+ /* Start Shop */
+ .newarrival{
+     height: 400px;
+     width: 100%;
+     box-shadow: 30px 10px 30px rgba(22, 20, 20, 0.15);
+ }
+ @font-face {
+     font-family: sacra;
+     src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+ }
+ .newarrival:hover{
+     font-size: xx-large;
+ }
+.newtext{
+    position: absolute;
+    font-family:sacra;
+    font-weight: bolder;
+    color: rgb(201, 119, 133);
+    text-shadow: 20px 10px 10px #383131;
+    margin-top: -250px;
+    margin-left: 100px;
+    
+}
+.arrival_grid{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    margin-left: 300px;
+    margin-top: -500px;
+    margin-right: 50px;
+    text-align: center;
+    grid-gap: 50px;
+}
+.buy{
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 5px;
+    border: none; 
+    box-shadow: 0 10px 10px rgba(15, 15, 15, 0.15);
+}
+.buy:hover{
+    color: rgb(241, 88, 229);
+    transform: scale(1.5);
+}
+.cart{
+    color: pink;
+}
+.cart:hover{
+    color:rgb(241, 88, 229);
+}
+.arr_img{
+    border-radius: 5px;
+    width: 70%;
+    box-shadow: 10px 10px 30px rgba(22, 22, 22, 0.15);
+}
+
+.special{
+    line-height: 100px;
+    margin-top: 250px;
+    margin-left: 30px;
+    
+}
+.spec_buttom{
+    width: 300px;
+    height: 50px;
+    border-style: hidden;
+    border-radius: 30px;
+    background-color: rgb(240, 203, 209);
+    box-shadow: 0 10px 20px rgba(168, 78, 78, 0.15);
+}
+.spec_buttom:hover{
+    color: rgb(241, 88, 229);
+    letter-spacing: 3px;  
+}
+/* End Shop */
+/* Start About page */
+.ab{
+    position: absolute;
+    writing-mode:vertical-rl;
+    letter-spacing: 5px;
+    margin-top: -300px;
+    padding-left: 1200px;
+}
+.abt{
+    text-align: center;
+}
+/* .abo div{
+    display: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    padding:0px;
+    margin-left: 20px;
+    background-color:rgb(236, 69, 69) ;
+} */
+.abo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.we{
+    box-shadow: 2px 2px 4px #000000;
+}
+@font-face {
+    font-family: rubi;
+    src: url(../fonts/RubikBeastly-Regular.ttf);
+}
+.wetx{
+    text-align: center;
+    font-family:rubi ;
+}
+    
