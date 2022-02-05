@@ -61,6 +61,7 @@ nav.navbar ul{
     font-family: lobster;
     font-weight: unset;
     margin-bottom: 10px;
+    text-shadow:2px 2px 20px #1c1d1f ;
 }
 .shop{
     background-color: white;
@@ -177,9 +178,11 @@ footer{
     text-decoration:none;
     display: grid;
     grid-template-columns: auto auto; 
-    margin-top: 30px;  
-    background-image: url(../images/bg2.jpg); 
-    box-shadow: 0 20px 20px rgba(10, 10, 10, 0.15) ;
+    margin-top: 20px;  
+    margin-bottom: 30px;
+    background-image: url(../images/bgg.jpg);
+    box-shadow:0 10px 10px rgba(22, 20, 20, 0.15) ;
+    
 }
 .z div{
     display: inline-block;
@@ -191,9 +194,8 @@ footer{
     height: 30px;
     margin-top: -20px;
     border-radius: 20px;
-    border-style: hidden;
+    border-style:hidden;
     box-shadow: 0 10px 10px #5a5b5c ;
-   
 }
 .contact1{
     width: 300px;
@@ -214,21 +216,27 @@ footer{
     line-height: 60px;
 }
 .context h3:hover{
-    color: rgb(10, 105, 38);
+    color: rgb(236, 122, 211);
     letter-spacing: 4px;
 }
 .icon1{
     color: rgb(48, 6, 29);
 }
 .icon1:hover{
-   color:rgb(88, 216, 127);
+   color:rgb(236, 122, 211);
 }
 input[type="name"]:focus,input[type="email"]:focus,input[type="number"]:focus,button[type='submit']:focus{
-        border: 3px solid rgb(85, 18, 55);
+        border: 2px solid rgb(243, 81, 208);
      }
  /* End contact page */
 
  /* Start Shop */
+ .shopus{
+     margin-left: 500px;
+     letter-spacing: 15px;
+     color: rgb(201, 119, 133);
+     text-shadow: 0 10px 10px #383131;
+ }
  .newarrival{
      height: 400px;
      width: 100%;
@@ -302,10 +310,34 @@ input[type="name"]:focus,input[type="email"]:focus,input[type="number"]:focus,bu
     color: rgb(241, 88, 229);
     letter-spacing: 3px;  
 }
+.more{
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 5px;
+    border: none; 
+    box-shadow: 0 10px 10px rgba(15, 15, 15, 0.15);
+    margin-top: 90px;
+    margin-left: 700px;
+    /* padding-left: 750px; */
+}
+.more:hover{
+    color: rgb(241, 88, 229);
+    letter-spacing: 3px;
+}
 /* End Shop */
 /* Start About page */
+.openhour{
+    position:absolute;
+    margin-top: -200px;
+    margin-left: 300px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: 4px;
+    /* padding-left: 1200px; */
+}
 .ab{
-    position: absolute;
+    /* position: absolute; */
     writing-mode:vertical-rl;
     letter-spacing: 5px;
     margin-top: -300px;
@@ -313,6 +345,8 @@ input[type="name"]:focus,input[type="email"]:focus,input[type="number"]:focus,bu
 }
 .abt{
     text-align: center;
+    text-shadow:0 2px 4px #000000 ;
+    margin-top: 150px;
 }
 /* .abo div{
     display: absolute;
@@ -328,7 +362,8 @@ input[type="name"]:focus,input[type="email"]:focus,input[type="number"]:focus,bu
     grid-template-columns: auto auto auto;
     text-align: center;
     color: white;
-    padding: 5px;
+    margin-top: 70px;
+    padding: 1px;
 }
 .we{
     box-shadow: 2px 2px 4px #000000;
@@ -339,6 +374,11 @@ input[type="name"]:focus,input[type="email"]:focus,input[type="number"]:focus,bu
 }
 .wetx{
     text-align: center;
-    font-family:rubi ;
+    line-height: 2px;
+    font-family:lobster ;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    color:black;
+    text-shadow: 0 2px 3px #000000 ;
 }
     
