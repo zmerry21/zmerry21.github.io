@@ -1,0 +1,22 @@
+
+<<<ASSIGNMENT1>>>
+1.SELECT MAX(salary) 'Max salary' FROM employee;
+2.SELECT MIN(salary) 'Min salary' FROM employee;
+3.SELECT COUNT(*) 'no of employee' FROM employee WHERE registerDate>='2013-02-12';
+4.SELECT DISTINCT  City FROM employee;
+5.SELECT SUM(salary) 'total salary' FROM employee;
+6.SELECT city,MAX(salary) FROM employee GROUP BY city ;
+7.SELECT AVG(salary) FROM employee WHERE department='HR';
+8.SELECT department,MAX(salary)'Max Salary',MIN(salary)'Min salary',AVG(salary)'Avg salary' FROM employee GROUP BY department;
+9.SELECT salary,COUNT(*) 'no of employee' FROM employee GROUP BY salary;
+10.SELECT department,COUNT(*) 'Total employee' FROM employee GROUP BY department;
+11.SELECT*FROM employee WHERE empName LIKE'%hy%' ORDER BY empName ASC;
+12.SELECT salary,MAX(salary) FROM employee  GROUP BY salary ORDER BY salary DESC LIMIT 3;
+
+
+<<<ASSIGNMENT2>>>
+1.SELECT COUNT(*) FROM orders WHERE Snum=1001 OR Amount>'1500';
+2.SELECT COUNT(*) FROM customers WHERE city='Landon';
+3.SELECT MIN(Amount)'Min Amount' FROM orders ORDER BY Amount;
+4.SELECT Odate,MAX(Amount) FROM orders GROUP BY Odate;
+5.SELECT Rating,CNAME,CNUM FROM customers ORDER BY rating DESC;

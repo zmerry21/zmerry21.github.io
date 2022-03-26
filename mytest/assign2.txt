@@ -1,0 +1,12 @@
+INSERT INTO employee(empNo,empName,registerDate) VALUES
+(111,'Shin Shin','2010-12-5');
+
+UPDATE employee SET jobPosition='IT',city='TaungGyi',dob='1994-2-14',phoneNo='098888888' WHERE empNo=111;
+
+SELECT*FROM employee WHERE empNo=111;
+SELECT* FROM employee;
+
+DELETE FROM employee WHERE empNo=109;
+DELETE FROM employee WHERE empNo=110;
+SELECT* FROM employee;
+

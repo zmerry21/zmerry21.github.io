@@ -1,0 +1,44 @@
+<<<ASSIGNMENT1>>>
+
+CREATE TABLE employee
+(
+id INT PRIMARY KEY,
+name VARCHAR(20),
+position VARCHAR(20),
+salary DECIMAL(10,2),
+email VARCHAR(20) UNIQUE
+);
+
+<<<ASSIGNMENT2>>>
+
+CREATE TABLE salespeople(
+SID INT PRIMARY KEY,
+Sname VARCHAR(20),
+city VARCHAR(20),
+comm DECIMAL(3,2)
+);
+
+DESC salespeople;
+
+
+CREATE TABLE customers
+(
+CID INT PRIMARY KEY,
+Cname VARCHAR(20),
+city  VARCHAR(20),
+rating INT,
+snum INT 
+);
+DESC customers;
+
+
+
+CREATE TABLE orders
+(
+OID INT PRIMARY KEY,
+amount DECIMAL(7,2)NOT NULL,
+Odate DATE,
+Cnum INT,
+snum INT
+);
+DESC orders;

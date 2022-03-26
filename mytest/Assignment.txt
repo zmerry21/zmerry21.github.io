@@ -1,0 +1,76 @@
+
+<<<Assignment 1>>>
+
+CREATE TABLE orders
+(
+Onum INT PRIMARY KEY,
+Amount DECIMAL(10,2),
+Odate DATE,
+Cnum VARCHAR(20),
+Snum INT
+);
+INSERT INTO orders(Onum, Amount,Odate,Cnum,Snum)VALUES
+(3001,18.69,'1990-10-3',2008,1007),
+(3003,767.80,'1990-10-3',2001,1001),
+(3002,1900.02,'1990-10-3',2007,1004),
+(3005,5160.45,'1990-10-3',2003,1002),
+(3006,1098.16,'1990-10-3',2008,1007),
+(3009,1713.23,'1990-10-4',2002,1003),
+(3007,75.75,'1990-10-4',2004,1002),
+(3008,4723.00,'1990-10-5',2004,1001),
+(3010,1309.95,'1990-10-5',2006,1002),
+(3011,9891.88,'1990-10-6',2006,1001);
+SELECT*FROM orders;
+
+
+CREATE TABLE customers
+(
+CNUM INT PRIMARY KEY,
+CNAME VARCHAR(10),
+City VARCHAR(20),
+Rating INT,
+SNUM INT
+);
+INSERT INTO customers
+(CNUM,CNAME,City,Rating,SNUM)VALUES
+(2001,'Hoffman','London',100,1001),
+(2002,'Giovanni','Rome',200,1003),
+(2003,'Liu','San Jose',200,1002),
+(2004,'Glass','Barlin',300,1002),
+(2006,'Clemens','London',100,1001),
+(2008,'Cisneros','San Jose',300,1007),
+(2007,'Pereira','Rome',100,1004)
+;
+SELECT* FROM customers;
+
+CREATE TABLE salespeople
+(
+Snum INT PRIMARY KEY,
+Sname VARCHAR(10),
+City VARCHAR(20),
+Comm Decimal(10,2)
+);
+INSERT INTO salespeople (Snum,Sname,City,Comm)VALUES
+(1001,'Peel','London','.12'),
+(1002,'Serres','San Jose','.13'),
+(1004,'Motika','London','.11'),
+(1007,'Rifkin','Barcelina','.15')
+;
+SELECT* FROM salespeople;
+
+	
+<<<Assignment 2>>>
+	
+INSERT INTO employee(empNo,empName,registerDate) VALUES
+(111,'Shin Shin','2010-12-5');
+
+UPDATE employee SET jobPosition='IT',city='TaungGyi',dob='1994-2-14',phoneNo='098888888' WHERE empNo=111;
+
+SELECT*FROM employee WHERE empNo=111;
+SELECT* FROM employee;
+
+DELETE FROM employee WHERE empNo=109;
+DELETE FROM employee WHERE empNo=110;
+SELECT* FROM employee;
+
+

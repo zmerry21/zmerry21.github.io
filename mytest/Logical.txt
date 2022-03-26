@@ -1,0 +1,36 @@
+Logical Op => true / false
+
+AND
+	- exp1 AND exp2 AND exp3
+	- true if all expressions are true.
+	- false if one expression is false.
+	eg.
+	3 > 5 AND 3 == 4 AND 4 < 6 => false AND false AND true => false
+	3 != 5 AND 3 == 3 AND 4 < 6 =>  true AND true AND true => true
+
+OR
+	- exp1 OR exp2 OR exp3
+	- true if at least one expression is true
+	- false if all expressions are false
+	eg.
+	3 > 5 OR 3 == 4 OR 4 < 6 => false OR false OR true=> true
+NOT
+	- NOT(exp)
+	- true if its exp is false.
+	- false if its exp is true
+	eg. NOT(3 > 4) = NOT(false) = true
+	     NOT(3 < 5) => NOT(true) = false
+	     NOT(salary BETWEEN 4000 AND 6000) => NOT(false) => true
+	     salary NOT IN(1000,4500,6000)
+
+what is expression?
+ 3 + 4 => arithmetic expression
+
+ rno != 1 => comparsion expression
+
+&& => logical expression
+
+= , != -> numeric, string,date
+> => numberic, date
+
+exp && exp && exp

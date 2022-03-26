@@ -1,0 +1,80 @@
+	Due Feb 19
+Loop Assignment
+Assignment 1
+
+
+problem solving...
+-User may enter the numbers till the user wants.
+- at the end, display the count of positive, negative and zero entered.
+
+
+Eg.
+
+
+How many numbers you want to type : 5
+
+
+Enter any number: 100
+Enter any number: -1
+Enter any number: 0
+Enter any number: 100
+Enter any number: 50
+________________________
+Numbers of zero : 1
+Numbers of positive number : 3
+Numbers of negative number : 1
+_________________________________________
+Assignment 2
+
+
+Write a program to find the sum of digits of a given number.
+
+
+
+to_string(num).length()
+
+
+E.g.
+
+1%10 =>1 =>  2 => 3 => 4=> 5 
+1/10 =>0
+
+Enter number : 12345
+The sum of digit of 12345 : 15
+_____________________________________________
+Assignment 3
+
+
+Enter start value:5
+Enter end Value:100
+
+
+problem solving...
+
+
+- Find the number that is divisible by 8 & 5.
+- Find the number that is divisible by only 8.
+- Find the number that is divisible by only 5.
+- Find the number that is not divisible by 8 & 5.
+
+
+The numbers divided by 8 & 5:
+40
+80
+
+The numbers divided by only 8:
+8
+16
+24
+......
+The numbers divided by only 5:
+5
+10
+15
+20
+.....
+The numbers not divided by 8 & 5:
+6
+7
+9
+11

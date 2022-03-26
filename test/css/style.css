@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: rubi;
+    src: url(../fonts/MrDafoe-Regular.ttf);
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.name{
+    font-family: rubi;
+    font-size: 20px;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+.navi{
+    height: 90px;
+    /* background-color: cornflowerblue; */
+}
+/* .navbar{
+    display: inline-block;
+} */
+.navi ul{
+    float:right;   
+}
+
+.navi ul li{
+    display: inline-block;
+    margin-right:50PX;
+    margin-top: 0px;
+  
+}
+nav.navi ul li a{ 
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.navi ul li a:hover{
+    color: cornflowerblue;
+    letter-spacing: 5px;
+    transition-duration: .5s;
+}
+
+.title{
+    font-family: Rubi;
+}
+.img{
+    float: right;
+    width: 100%;
+}
+.bgtext{
+    position: absolute;
+    top: 200px;
+    margin-right:600px;
+    margin-left: 50px;
+}
+.shop{
+    background-color: white;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+.shop:hover{
+    background-color: darkcyan;
+    color: white;
+}
+.header{
+    text-align: center;
+    margin-top: 40px;
+}
+.divided{
+    width: 100px;
+    margin: auto;
+    border: 1px solid ;
+}
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+Assignment -1
+
+
+- Write a function (findSmallestNumber) that accepts three numbers and return the smallest number of them.
+_______
+
+Assignment - 2
+
+- Create Fun(name:calculateDiscountItem) that takes price & discount percentage and calculate discount value.
+         eg.
+                 Item price: 10000
+                 Discount value:20
+                 After discount,price: 8000
+
+- Create fun(name:calculateInterest) 
+            - takes loan amount,interest rate,noOfMonths
+            -calculate result.
+            eg.
+                 - Enter loan amount: 10000
+                 - Enter interest rate: 15
+                 - Enter number of month: 3
+                  --------------------------------------------
+                 - monthly interest : 1500
+                - Total interest : 4500
+
+_________________________________________________________
+
+Assignment 3
+string itemList[5][3];  = { {"101","CUP","1200"},
+{"102","CUP","1200"}, 
+
+{"103","CUP","1200"},
+
+{"104","CUP","1200"},
+
+{"105","CUP","1200"}
+}
+- Create Fun(name:initializeItemData)
+           - initialize item array data(barCode,name,price)
+- Create Fun(name:displayItemData)
+           - display all item information
+- Create Fun(name:searchItemByCode(string barCode) )
+            - take one arg for barcode
+            - display result

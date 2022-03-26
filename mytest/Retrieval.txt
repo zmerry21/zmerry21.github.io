@@ -1,0 +1,12 @@
+ 1.SELECT*FROM orders WHERE city='ROME';
+2.SELECT* FROM customers WHERE SNUM='1001';
+3.SELECT  City,Sname,Snum,Comm FROM salespeople;
+4.SELECT*FROM customers ORDER BY CNAME ASC;
+5.SELECT*FROM orders WHERE Odate BETWEEN '1990-10-04' AND '1990-10-08';
+6.SELECT*FROM salespeople WHERE City='London' AND Comm>'.10';
+7.SELECT*FROM customers WHERE CNAME LIKE 'c%';
+8.SELECT*FROM customers WHERE Snum IN(1001,1002,1007);
+9.SELECT *FROM salespeople WHERE Comm NOT IN(.10,.13,.15);
+10.SELECT DISTINCT  City FROM customers;
+11.SELECT*FROM customers LIMIT 3;
+12. SELECT*FROM salespeople WHERE city='ROME';
